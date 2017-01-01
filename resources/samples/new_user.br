@@ -1,0 +1,16 @@
+#!/usr/bin/env brace.shell
+
+require IO {from! brace/base}
+
+say  = IO.say
+read = IO.read
+
+say {Welcome to Your new Shell and Account}
+
+user = read {prompt: Please enter your name\:}
+
+say {Hello [user]} {How are you?}
+
+message =
+  { Creating your [:home] directory; command: ! mkdir -p /home/[user] !! }
+  { Giving Credentials to user\:user; command: ! chown -R [user]:[user] /home/[user] !!}
