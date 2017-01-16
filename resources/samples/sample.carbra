@@ -1,1 +1,7 @@
 Say! Hello; world; *carbra; **hehe; . { new; mutation }; ... {{ print-print }}
+
+
+Person [
+  [:Name = ::Random], [:Family = ::J. Hacker]
+  [:First { % 0 }], [:Second { %1 }], [: Name { %1 ],...
+]
