@@ -1,0 +1,19 @@
+:GUID :: algo -> func.New { IO.Random.Int@ } { IO.Say {Battlefield 1} $ }
+9517f773-acde-4c35-a102-033a36e5a83b
+
+say {Hello} {User [read { prompt: Enter your name, please\: }]}
+
+IO.Say = func.New {...} ...
+
+Discriminant = func.New {a} {b} {c} -> {b} ** 2 - 4 * {a} {c} !
+
+Person 1 = dict.New {Name = Nekoi; si; Borkata}
+
+IO.Say {Who {is [::number one]} `${ `$}
+
+IO.Say [Person 1] {is} {numba one}
+IO.Say [Person 1 % 1] {is} {numba one}
+IO.Say [Person 1 % 0] {is} {numba one}
+IO.Say {,}
+IO.Say [Person 1 % 0] {is} {numba one}
+IO.Say [Person 1 % 1] {is} {numba one}
