@@ -21,20 +21,19 @@ The Ultimate Brace command interpretator!
 
   say { To be continued... Stay Psyched! More To come }
   
-  # ======================================================================
+  
+  
+  
+  # ===
   # |New-ton::
-  # |? F = m * a
-  # | 
-  # |
-  # | Newton:
-  # |   force = io.mass `* a { `\* }
-  # |   ???
-  # |                             
-  # | ! fakturiel = ([ if? ... ]; (fakturiel {n `- 1}); `$- operatoro) !!|
-  # ======================================================================
-  # ================================================
-  # Newton:
-  # | force = io.mass `* a { `\* }]
-  # | ?
- `# | (-force) = `(force) `{ `= }
-  # ===============================================================================================================
+  # | % F = m * a
+  # ===
+  
+  require Base.Phys.Force.Mechanical { from! ./brace/stash/physics/base/Base.py !!; method! /usr/bin/env/python !! }
+  
+  force_1 = Base.Phys.Force.Mechanical.New {m} {a} -> m * a ! . {! No; Error Expected... Srry about this __READER__ !}
+
+  Law_2 = force_2 -> -force_1 @ !
+
+  Qty 1 = force_1 {3; pounds; a Three Pounder cannon} {500; m/s^2; WARNING *Slightly Better Gunpowder* }
+  ... !{1 To do Smells like ... Gunpowder in the Morning Awwwyeeaaah Time for CODE meditation !}
