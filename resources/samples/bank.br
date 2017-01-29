@@ -1,0 +1,9 @@
+# Key expression -> <key name> { <associated arguments> }
+
+
+
+Name { First; Last }
+
+Person { Name @; Age { 21 }; Home Address 
+
+Bank {
