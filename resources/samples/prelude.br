@@ -1,0 +1,27 @@
+#!/usr/bin/env brace.shell
+#: Motto:: Everything {is} {text}; It all comes :through {text}
+# These are temporary expressions/variables
+package.name = Prelude
+
+# The language !is {"soft" }.
+# This means that Keys !and Values doesn't really have any difference. 
+# Call them Thangs (A nice tradition from the olden berkeley db code-base)
+# &Also: It means that You can Chain Keys and props with :"." { the dot oper } until you are satisfied with a value.
+packages {
+  Base
+  Base.IO
+  Base.IO.Say
+  Base.IO.Ask
+  Base.IO.Persistence
+  Base.IO.Random
+  Base.Math
+  Base.Sys
+}
+packages.Base {Text; Number; Package; Socket}
+packages.Base.IO {Read; Write; Execute; Evaluate; Loop; Print; Mute}
+packages.Base.IO.Persistence.SEF { Synchronize; Expand; Forfeit }
+packages.Base.IO.Persistence.CRUD {Create; Read; Update; Delete}
+packages.Base.IO.Random {
+packages.Base.Sys.File { Stream; Permissions; 
+
+export { packages }
