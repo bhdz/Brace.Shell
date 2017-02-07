@@ -2,8 +2,8 @@
 
 require IO {from! brace/base}
 
-say  = IO.say
-read = IO.read
+say  = IO.Say
+read = IO.Read
 
 say {Welcome to Your new Shell and Account}
 
