@@ -22,7 +22,7 @@ The Ultimate Brace command interpretator!
   say { To be continued... Stay Psyched! More To come }
   
   
-  require Base.Phys.Force.Mechanical { from! ./brace/stash/physics/base/Base.py !!; method! /usr/bin/env/python !! }
+  require Base.Phys.Force.Mechanical { from! ./brace/stash/physics/base/base.py !!; method! /usr/bin/env/python !! }
   
   force_1 = Base.Phys.Force.Mechanical.New {m} {a} -> m * a ! . {! No; Error Expected... Srry about this __READER__ !}
 
