@@ -17,17 +17,10 @@ The Ultimate Brace command interpretator!
 
   require Feed.Hash { from! ./brace/stash/hash/ !! }
 
-  pass hash = Feed.Hash.new [ password ]
+  pass hash = Feed.Hash.New [ password ]
 
   say { To be continued... Stay Psyched! More To come }
   
-  
-  
-  
-  # ===
-  # |New-ton::
-  # | % F = m * a
-  # ===
   
   require Base.Phys.Force.Mechanical { from! ./brace/stash/physics/base/Base.py !!; method! /usr/bin/env/python !! }
   
