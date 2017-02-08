@@ -6,7 +6,9 @@ The Ultimate Brace command interpretator!
   #!/usr/bin/env brace.shell
 
   # Author: {Boril; Boyanov}
+
   # License: {BSD; 2 clauses}
+  
   # github:
 
   require {IO.Say} {from! ./base/io !!; method! << cat; unfinished >> !!}
