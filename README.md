@@ -21,7 +21,7 @@ The Ultimate Brace command interpretator!
 
   pass hash = Feed.Hash.New [ password ]
 
-  say { To be continued... Stay Psyched\! More To come }
+  say { To be continued... Stay Psyched\\! More To come }
 
 
   require {Base.Phys.Force.Mechanical} { from! ./brace/stash/physics/base/base.py !!; method! /usr/bin/env/python !! }
@@ -32,9 +32,8 @@ The Ultimate Brace command interpretator!
 
   Qty 1 = force_1 {3; pounds; a Three Pounder cannon} {500; m/s^2; WARNING *Slightly Better Gunpowder* }
 
-  Qty 2 = say {The \:Qty 1; is [Qty 1 % 0]} {on} [Qty 1 % 1]
+  Qty 2 = say {The \\:Qty 1; is [Qty 1 % 0]} {on} [Qty 1 % 1]
 
   IO.Say [Qty 2] $
 
   ...
-  
