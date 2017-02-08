@@ -1,0 +1,38 @@
+#!/usr/bin/env cat
+
+#
+#
+#:WHERE{?}
+#::HOW{?}
+#:~ NO! Basic = idea; here
+#  This file :is {used; as} descriptory means of reaching the concrete implemen-
+#  ation. in the future a special bash script will be launched which will gather
+#  all the needed CATS in order to LINK NAD INTREPRERR.r..r.r.r.r.r.r.r..r.r.r.r
+#
+\
+\
+\
+class Say(object):
+    def __call__(self, *args, **keys):
+        return "[:[:None];[:unfinished]]"
+
+#
+# : export {IO} {}
+# :: ?
+#
+
+#
+# : export {IO.Say}
+# :: ?
+#
+
+#
+# : export {IO.Ask}
+# :: ?
+#
+
+
+#
+# : export {...}
+# :: ...
+#
